@@ -1,0 +1,44 @@
+.title-wrapper {
+  width: 100%;
+  text-align: center;
+}
+.main-title {
+  /* text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+  color: #fffcfc1a;
+  font-family: "Poppins", sans-serif;
+  margin-top: -18px; */
+  text-align: center;
+  font-size: 52px;
+  font-weight: 900;
+  color: #fffcfc1a;
+  font-family: "Poppins", sans-serif;
+  margin-top: -18px;
+}
+.sub-title {
+  /* font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: -24px;
+  color: #39ff39;
+  font-weight: 900;
+  margin-bottom: 0; */
+  font-size: 32px;
+  text-align: center;
+  position: relative;
+  top: -40px;
+  /* color: #39ff39; */
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .main-title {
+    font-size: 32px;
+  }
+  .sub-title {
+    font-size: 20px;
+    top: -24px;
+  }
+}
